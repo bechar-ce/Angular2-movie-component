@@ -6,7 +6,7 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {MovieListComponent} from "./movies/movie-list.component";
 import {StarComponent} from "./shared/star.component";
-import { MovieFilterPipe } from './movies/movie-filter.pipe';
+import {MovieFilterPipe} from './movies/movie-filter.pipe';
 import {MovieService} from "./movies/movie.service";
 
 @NgModule({

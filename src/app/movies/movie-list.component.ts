@@ -16,15 +16,15 @@ export class MovieListComponent implements OnInit {
   imageMargin: number = 2;
   showImage: boolean = false;
   listFilter: string = 'DDLJ';
+  errorMessage: string;
   movies: IMovie[];
 
   constructor(private _movieService: MovieService) {
   }
 
   ngOnInit(): void {
-    this.movies = this._movieService.getMovies();
-    /*this._movieService.getMovies()
-      .subscribe(movies=>this.movies = movies);*/
+    this._movieService.getMovies()
+      .subscribe(movies=>this.movies = movies, error => this.errorMessage = <any>error);
   }
 
   toggleImage() {
@@ -33,6 +33,6 @@ export class MovieListComponent implements OnInit {
   }
 
   onNotify(message: string): void {
-    this.pageTitle = 'Product List: ' + message;
+    this.pageTitle = 'Movie List: ' + message;
   }
 }

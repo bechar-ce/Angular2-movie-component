@@ -8,5 +8,5 @@ export interface IMovie {
   runTime: string;
   actors: Array;
   starRating: number;
-  imageUrl:string;
+  imageUrl: string;
 }

@@ -1,4 +1,4 @@
-import { MovieFilterPipe } from './movie-filter.pipe';
+import {MovieFilterPipe} from './movie-filter.pipe';
 
 describe('MovieFilterPipe', () => {
   it('create an instance', () => {
