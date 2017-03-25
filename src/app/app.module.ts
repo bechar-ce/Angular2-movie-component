@@ -8,18 +8,23 @@ import {MovieListComponent} from "./movies/movie-list.component";
 import {StarComponent} from "./shared/star.component";
 import {MovieFilterPipe} from './movies/movie-filter.pipe';
 import {MovieService} from "./movies/movie.service";
+import {WelcomeComponent} from './home/welcome/welcome.component';
+import {RouterModule, Routes} from "@angular/router";
+import {rootRouterConfig} from "./app.routes";
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
     StarComponent,
-    MovieFilterPipe
+    MovieFilterPipe,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(rootRouterConfig)
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
