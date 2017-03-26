@@ -41,7 +41,7 @@
                  [style.margin.px]='imageMargin'>
           </td>
           <td>{{i+1}}</td>
-          <td>{{movie.movieName}}</td>
+          <td><a  [routerLink]="['/movie-detail', movie.movieID]">{{movie.movieName}}</a></td>
           <td>{{movie.language}}</td>
           <td>{{ movie.runTime }}</td>
           <td>

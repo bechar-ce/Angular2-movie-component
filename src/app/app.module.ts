@@ -11,6 +11,7 @@ import {MovieService} from "./movies/movie.service";
 import {WelcomeComponent} from './home/welcome/welcome.component';
 import {RouterModule, Routes} from "@angular/router";
 import {rootRouterConfig} from "./app.routes";
+import { MovieDetailComponent } from './movies/movie-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {rootRouterConfig} from "./app.routes";
     MovieListComponent,
     StarComponent,
     MovieFilterPipe,
-    WelcomeComponent
+    WelcomeComponent,
+    MovieDetailComponent
   ],
   imports: [
     BrowserModule,
