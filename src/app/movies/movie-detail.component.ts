@@ -12,9 +12,13 @@ export class MovieDetailComponent implements OnInit {
   constructor(private _router: Router, private _routeParams: ActivatedRoute) {
     this._routeParams.params.subscribe(params => {
       let id = Number.parseInt(params['id']);
-      console.log("id::: "+id);
+      console.log("id::: " + id);
       this.pageTitle += `: ${id}`;
     });
+  }
+
+  ngOnInit() {
+
   }
 
   onBack(): void {
