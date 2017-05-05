@@ -1,0 +1,76 @@
+[{
+    "imageId": 1,
+    "type": "image",
+    "imageTitle": "Angular 2 Setup",
+    "imageDescription": "Angular 2 setup a local development in your working environment. Take a look at the all steps needed to set up a test-driven Angular 2 project",
+    "properties": {
+      "imageWidth": "",
+      "imageHeight": "",
+      "opacity": 1,
+      "visible": true,
+      "margin": 0,
+      "border": 0,
+      "display": ""
+    },
+    "imageUrl": "./assets/images/home/angular-2-setup-image.png",
+    "imageAltTxt": "angular-2.0 setup hello world image",
+    "imageClickUrl": "angular-2-setup-hello-world.html",
+    "imageBtnUrl": "angular-2-setup-hello-world.html"
+  },
+  {
+    "imageId": 2,
+    "type": "image",
+    "imageTitle": "Speed & Performance",
+    "imageDescription": "Angular 2 makes mobile apps easier to handle things ( via Web Workers and server-side rendering) and improves performance, load time, etc.k",
+    "properties": {
+      "imageWidth": "",
+      "imageHeight": "",
+      "opacity": 1,
+      "visible": true,
+      "margin": 0,
+      "border": 0,
+      "display": ""
+    },
+    "imageUrl": "./assets/images/home/angularjs-2-speed-performance.png",
+    "imageBtnUrl": "/angular2-introduction",
+    "imageClickUrl": "angular-2-setup-hello-world.html",
+    "imageAltTxt": "angularjs-2.0 speed & performance image"
+  },
+  {
+    "imageId": 3,
+    "type": "image",
+    "imageTitle": "Mobility Driven",
+    "imageDescription": "Angular 2 is mobile oriented. Angular 2 is using Hierarchical Dependency Injection system which is major performance booster.r",
+    "properties": {
+      "imageWidth": "",
+      "imageHeight": "",
+      "opacity": 1,
+      "visible": true,
+      "margin": 0,
+      "border": 0,
+      "display": ""
+    },
+    "imageUrl": "./assets/images/home/angularjs-2-mobility-driven.png",
+    "imageBtnUrl": "/angular2-introduction",
+    "imageClickUrl": "angular-2-setup-hello-world.html",
+    "imageAltTxt": "angularjs-2.0 speed & performance image"
+  },
+  {
+    "imageId": 4,
+    "type": "image",
+    "imageTitle": "Modular",
+    "imageDescription": "Angular 2 makes mobile apps easier to handle things ( via Web Workers and server-side rendering) and improves performance, load time, etc.k",
+    "properties": {
+      "imageWidth": "",
+      "imageHeight": "",
+      "opacity": 1,
+      "visible": true,
+      "margin": 0,
+      "border": 0,
+      "display": ""
+    },
+    "imageUrl": "./assets/images/home/angularjs-2-modular.png",
+    "imageBtnUrl": "/angular2-introduction",
+    "imageAltTxt": "angularjs-2.0 speed & performance image"
+  }
+]

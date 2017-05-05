@@ -1,8 +1,8 @@
-import {Component, OnInit} from '@angular/core';
-import {Router, ActivatedRoute} from "@angular/router";
-import {MovieService} from "./movie.service";
-import {IMovie} from "./movie";
-import {Subscription} from "rxjs";
+import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from "@angular/router";
+import { MovieService } from "./movie.service";
+import { IMovie } from "./movie";
+import { Subscription } from "rxjs";
 
 @Component({
     selector: 'app-movie-detail',
